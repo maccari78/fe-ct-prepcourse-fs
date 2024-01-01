@@ -179,7 +179,7 @@ function esVerdadero(valor) {
   // Tu código:
   if (valor === true) {
     return "Soy verdadero";
-  } else if (valor === false) {
+  } else {
     return "Soy falso";
   }
 }
