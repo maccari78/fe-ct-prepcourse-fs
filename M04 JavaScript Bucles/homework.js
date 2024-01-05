@@ -6,7 +6,7 @@ function obtenerMayor(x, y) {
   // Si son iguales, retornar cualquiera de los dos.
   // Tu código:
   if (x === y) {
-    return x || y;
+    return x;
   } else {
     return x > y ? x : y;
   }
